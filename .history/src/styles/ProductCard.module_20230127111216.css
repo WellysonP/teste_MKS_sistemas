@@ -1,0 +1,101 @@
+.productCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 217.56px;
+    height: 285px;
+}
+
+.productImageCard {
+    height: 138px;
+    padding: 18px;
+}
+
+.productTitleCard {
+    height: 38px;
+    width: 124px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.productDescriptionCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.productDescriptionCardRow {
+    display: flex;
+}
+
+.productPriceCard {
+    display: flex;
+    align-items: center;
+    background: #373737;
+    padding: 4px 6px;
+    height: 18px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.productTextCard {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    width: 192px;
+    height: 25px;
+}
+
+.productButtonCard {
+    display: flex;
+    align-items: center;
+    background: #0F52BA;
+    border-radius: 0px 0px 8px 8px;
+    width: 218px;
+    height: 32px;
+}
+
+.productButtonCard div {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.productButtonCard img {
+    margin: 0px 14px 0px 57px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.marginCard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 22px;
+    grid-row-gap: 31px;
+    place-items: center;
+    width: 217.56px;
+    height: 285px; 
+     background-color: red;
+}
+
+.centerCard{
+    background-color: red;
+}

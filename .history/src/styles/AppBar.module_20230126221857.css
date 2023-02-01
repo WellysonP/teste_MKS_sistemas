@@ -1,0 +1,62 @@
+.appBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #0F52BA;
+}
+
+.appLogo {
+    justify-content: start;
+    align-items: flex-end;
+    display: flex;
+    color: #fff;
+}
+
+.title {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    width: 100px;
+    height: 44px;
+    padding: 0;
+    margin: 28px 0px 29px 65px;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 200px;
+    height: 44px;
+    margin: 45px 0px 12px 0px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 19px;
+}
+
+.carButton {
+    padding: 29px 88px 27px 0px;
+}
+
+.carButton button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 90px;
+    height: 45px;
+}
+
+.carButton div {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}

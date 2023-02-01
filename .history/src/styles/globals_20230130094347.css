@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  background-color: #E5E5E5;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vh;
+  justify-content: space-between;
+}
+
+
+.cart{
+  display: block;
+  position: fixed;
+  z-index: 0;
+  right: 0;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  overflow: auto; 
+  background-color: red;
+}

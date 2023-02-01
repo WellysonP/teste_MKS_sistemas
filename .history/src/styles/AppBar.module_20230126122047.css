@@ -1,0 +1,25 @@
+.appBar{
+    justify-content: start;
+    align-items: flex-end;
+    display: flex;
+    background-color: #0F52BA;
+    color: #fff;
+}
+
+.title{
+    margin: 28px 0px 29px 10px;
+    /* margin-top: 28px;
+    margin-bottom: 29px;
+    margin-left: 65px; */
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Montserrat";
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 19px;
+}

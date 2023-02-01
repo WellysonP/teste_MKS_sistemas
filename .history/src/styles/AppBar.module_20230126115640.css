@@ -1,0 +1,16 @@
+.appBar{
+    display: flex;
+    background-color: #0F52BA;
+    color: #fff;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Montserrat";
+}
+
+.subtitle{
+
+}

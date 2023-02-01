@@ -1,0 +1,5 @@
+import ProductModel from "../models/ProductModel"
+
+const productDumy = new ProductModel(1, 'Product1', 100, 'description of product1',"https://images-americanas.b2w.io/produtos/01/00/img/133839/3/133839352_1GG.jpg");
+
+export default productDumy

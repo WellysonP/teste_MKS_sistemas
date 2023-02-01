@@ -1,0 +1,35 @@
+import CartModel from "../models/CartModel"
+import styles from "../styles/Cart.module.css"
+import CartProduct from "./CartProduct"
+
+interface CartProps{
+    product: CartModel
+}
+
+export default function Cart() {
+    return (
+        <div className={styles.cartApp}>
+            <div className={styles.cartAppBar}>
+                <div className={styles.cartTitle}>
+                    Carrinho de compras
+                </div>
+                <button className={styles.cartCloseButton}>x</button>
+            </div>
+            <div className={styles.cartProductCards}>
+                <div className={styles.cartContent}>
+                    <CartProduct />
+                </div>
+                <div className={styles.cartContent}>
+                    <CartProduct />
+                </div>
+            </div>
+            <div className={styles.test2}>
+                <div className={styles.CartProductTotalValue}>
+                    <div className={styles.CartProductTotal}>Total:</div>
+                    <div className={styles.CartProductValue}>R$798</div>
+                </div>
+                <div className={styles.cartProductFooter}>Finalizar Compra</div>
+            </div>
+        </div>
+    )
+}

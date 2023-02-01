@@ -1,0 +1,44 @@
+.cartApp{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartAppBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    width: 180px;
+    height: 56px;
+    margin: 36px 0px 56px 47px;
+    color: #FFFFFF;
+}
+
+.cartCloseButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 39px 22px 0px 0px;
+    height: 38px;
+    width: 38px;
+    border-radius: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 15px;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.cartContent{
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+}
